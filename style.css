@@ -26,7 +26,7 @@
 }
 
 .title-div {
-    margin-top: 125px;
+    margin-top: 160px;
 }
 
 .title {
@@ -43,14 +43,9 @@
     display: block;
 }
 
-.first-nav {
-    margin-left: 85px;
-}
-
 .login {
     width: 100px;
     height: 30px;
-    float: right;
     border: 1px solid #283e6f;
     border-radius: 25px;
 }
@@ -499,6 +494,28 @@ li{
     .nav-masthead {
         display: none;
     }
+
+    .nav-mastheadresponsive {
+        margin-top: 15px;
+        width: 73%;
+        margin-left: 8px;
+        position: absolute;
+        z-index: 100;
+    }
+
+    .nav-mastheadresponsive > a {
+        padding: 0 16px 8px 16px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .login {
+        width: 100px;
+        height: 30px;
+        margin-left: 42%;
+        border: 1px solid #283e6f;
+        border-radius: 25px;
+    }
     .hamburger {
         display: block;
         float: right;
@@ -538,28 +555,11 @@ li{
         right: 0;
         top: 0;
     }
-    .nav-masthead.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
-    .nav-mastheadresponsive {
-        position: absolute;
-        z-index: 100;
-    }
-
-    .nav-mastheadresponsive > a {
-        padding: 0 16px 8px 16px;
-        margin: 0;
-        /*text-align: center;*/
-        display: flex!important;
-        justify-content: left;
-    }
 
     .prev {
         margin-left: 100px;
     }
+
     .next {
         margin-right: 130px ;
     }
@@ -631,6 +631,27 @@ li{
     .prev {
         margin-left: -65px;
         margin-top: 40px;
+    }
+
+    .nav-mastheadresponsive {
+        width: 430px;
+        margin-left: 8px;
+        position: absolute;
+        z-index: 100;
+    }
+
+    .nav-mastheadresponsive > a {
+        padding: 0 16px 8px 16px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .login {
+        width: 100px;
+        height: 30px;
+        margin-left: 38%;
+        border: 1px solid #283e6f;
+        border-radius: 25px;
     }
 }
 
